@@ -58,26 +58,12 @@ def ReleaseKey(hexKeyCode):
 
 
 def enter():
-
-    PressKey(0x1c)
-    time.sleep(0.1)
-    ReleaseKey(0x1c)
-    time.sleep(0.1)
-    PressKey(0x1c)
-    time.sleep(0.1)
-    ReleaseKey(0x1c)
-    time.sleep(0.1)
-    PressKey(0x1c)
-    time.sleep(0.1)
-    ReleaseKey(0x1c)
-    time.sleep(0.1)
-    PressKey(0x1c)
-    time.sleep(0.1)
-    ReleaseKey(0x1c)
-    time.sleep(0.1)
-    PressKey(0x1c)
-    time.sleep(0.1)
-    ReleaseKey(0x1c)
+    for x in range(3):
+        PressKey(0x1c)
+        time.sleep(0.1)
+        ReleaseKey(0x1c)
+        time.sleep(0.1)
+    
     now = datetime.datetime.now()
     print("enter : "+ now.strftime("%Y-%m-%d %H:%M:%S"))
 
