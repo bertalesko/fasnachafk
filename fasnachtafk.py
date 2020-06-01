@@ -58,7 +58,7 @@ def ReleaseKey(hexKeyCode):
 
 
 def enter():
-    for x in range(3):
+    for x in range(5):
         PressKey(0x1c)
         time.sleep(0.1)
         ReleaseKey(0x1c)
