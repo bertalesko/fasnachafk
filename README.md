@@ -1,0 +1,2 @@
+# fasnachafk
+pythonscript for fasnacht
