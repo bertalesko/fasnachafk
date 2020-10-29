@@ -5,6 +5,8 @@ from pynput.keyboard import Controller
 import time
 
 keyboard = Controller()  # Create the controller
+#http://www.philipstorr.id.au/pcbook/book3/scancode.htm key code list
+
 
 SendInput = ctypes.windll.user32.SendInput
 
